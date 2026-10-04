@@ -1,0 +1,119 @@
+[
+	{
+		"id": "701afb65-945e-4ff9-8f59-8c1f414a6f70",
+		"position": 1,
+		"kind": "sdm",
+		"filepath": "src/data/slides/701afb65-945e-4ff9-8f59-8c1f414a6f70.sdm.yaml",
+		"title": "Slide 1",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "acfef170-eb36-409b-a17e-12e9a3ac249b",
+		"position": 2,
+		"kind": "sdm",
+		"filepath": "src/data/slides/acfef170-eb36-409b-a17e-12e9a3ac249b.sdm.yaml",
+		"title": "Slide 2",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "8b534a8c-6cf1-40da-a82e-07b427dec8ee",
+		"position": 3,
+		"kind": "sdm",
+		"filepath": "src/data/slides/8b534a8c-6cf1-40da-a82e-07b427dec8ee.sdm.yaml",
+		"title": "Slide 3",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "15c30911-cf27-464f-8e71-3475ef912992",
+		"position": 4,
+		"kind": "sdm",
+		"filepath": "src/data/slides/15c30911-cf27-464f-8e71-3475ef912992.sdm.yaml",
+		"title": "Slide 4",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "fda2531d-ba72-4317-9567-499251aad184",
+		"position": 5,
+		"kind": "sdm",
+		"filepath": "src/data/slides/fda2531d-ba72-4317-9567-499251aad184.sdm.yaml",
+		"title": "Slide 5",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "dbdcfa41-93d1-4c52-b5d9-65f1eae3d286",
+		"position": 6,
+		"kind": "sdm",
+		"filepath": "src/data/slides/dbdcfa41-93d1-4c52-b5d9-65f1eae3d286.sdm.yaml",
+		"title": "Slide 6",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "ae4897dc-e4b6-444d-8321-100e65ce4a35",
+		"position": 7,
+		"kind": "sdm",
+		"filepath": "src/data/slides/ae4897dc-e4b6-444d-8321-100e65ce4a35.sdm.yaml",
+		"title": "Slide 7",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "42c061a3-bcf3-4e6f-97e2-0a500c7c1b03",
+		"position": 8,
+		"kind": "sdm",
+		"filepath": "src/data/slides/42c061a3-bcf3-4e6f-97e2-0a500c7c1b03.sdm.yaml",
+		"title": "Slide 8",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "87680486-a314-45ab-8c2b-419b4795b508",
+		"position": 9,
+		"kind": "sdm",
+		"filepath": "src/data/slides/87680486-a314-45ab-8c2b-419b4795b508.sdm.yaml",
+		"title": "Slide 9",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "020ac499-3213-4cd6-9b9b-9ac7a3b0da0d",
+		"position": 10,
+		"kind": "sdm",
+		"filepath": "src/data/slides/020ac499-3213-4cd6-9b9b-9ac7a3b0da0d.sdm.yaml",
+		"title": "Slide 10",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "79f9f125-480e-4f36-b24d-d0df890af1af",
+		"position": 11,
+		"kind": "sdm",
+		"filepath": "src/data/slides/79f9f125-480e-4f36-b24d-d0df890af1af.sdm.yaml",
+		"title": "Slide 11",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "cb482a8a-4ce8-4d22-97fb-1f283180a44a",
+		"position": 12,
+		"kind": "sdm",
+		"filepath": "src/data/slides/cb482a8a-4ce8-4d22-97fb-1f283180a44a.sdm.yaml",
+		"title": "Slide 12",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	},
+	{
+		"id": "b632609b-d958-4da2-998d-ba65547e8262",
+		"position": 13,
+		"kind": "sdm",
+		"filepath": "src/data/slides/b632609b-d958-4da2-998d-ba65547e8262.sdm.yaml",
+		"title": "Slide 13",
+		"description": "Imported slide",
+		"speakerNotes": ""
+	}
+]

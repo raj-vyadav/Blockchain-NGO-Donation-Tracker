@@ -1,0 +1,16 @@
+I've checked your new walkthrough against the updated deck. It confirms everything I changed, and it also shows one more claim the site doesn't support: that every rupee is tied to specific work. The site pools all contributions per project, so I'm fixing that now.Both slides fit, but the page number on slides 12 and 13 is clipped because its box is too narrow for two digits. The original deck had this on its references slide too. I'm widening the box on both.I'm wrapping up. The page numbers now show correctly, and I'm presenting the final file.I checked the updated deck against your walkthrough, and it now matches the site apart from a few items in the images I couldn't edit (listed below). The walkthrough confirmed my earlier fixes, and it showed one more thing to change.
+
+**What I changed this round**
+- **Funds are pooled, not tracked per rupee:** The site treats contributions as one shared pool per project. Slides 6 and 7 had said "connect every rupee" and "tied to specific work". They now say a project's funds are tied to verified milestone stages.
+- **Slide 12 (Prototype Scope and Limitations):** I added that contributions are pooled and that the contribution history is community-wide, not a private account.
+- **Page numbers:** The numbers on slides 12 and 13 were clipped to "1". They now read 11 and 12.
+
+**Still not fixed, because they're images**
+- **Slide 8 flowchart and slide 10 diagram:** Both say "previous votes are reset" when the NGO resubmits. Neither description of the site mentions this, so please check the app and then either keep it or tell me to remove it.
+- **Slide 11 diagram:** Its "Project form" box lists only title, target and milestones. The site's New project form also asks for location and description.
+- **Slide 10 diagram:** It still shows "Public ledger" and "Release funds". These are covered only by the caption I added underneath.
+
+The project title and the PDF abstract still promise Solidity, IPFS and DAO voting that the site doesn't have. I haven't changed those.
+
+Files are in /mnt/user-data/outputs:
+- blockchainbased_NGO_Tracker_updated.pptx

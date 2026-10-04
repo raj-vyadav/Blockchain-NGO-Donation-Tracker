@@ -1,0 +1,418 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+  image-3:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_3.png
+elements:
+  - id: e0
+    name: object 6
+    frame:
+      x: 0
+      y: 0
+      width: 156
+      height: 129.12
+    altText: object 6
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 7
+    frame:
+      x: 1728
+      y: 0
+      width: 155.04
+      height: 149.76
+    altText: object 7
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e2
+    name: object 2
+    frame:
+      x: 0
+      y: 1034.95
+      width: 1920
+      height: 45.13
+    type: group
+    coordinateSpace:
+      width: 1920
+      height: 45.13
+    children:
+      - id: e2-0
+        name: object 3
+        frame:
+          x: 0
+          y: 5.83
+          width: 1920
+          height: 39.16
+        altText: object 3
+        type: image
+        assetId: image-3
+        fit: fill
+      - id: e2-1
+        name: object 4
+        frame:
+          x: 0
+          y: 0
+          width: 1920
+          height: 44.96
+        type: shape
+        geometry:
+          kind: path
+          viewBox:
+            width: 1
+            height: 1
+          path: M 1 0 L 0 0 L 0 0.99815 L 1 0.99815 L 1 0 Z
+        fill:
+          kind: solid
+          color:
+            kind: rgb
+            value: "#006FC0"
+        body:
+          paragraphs:
+            - runs: []
+          overflow: visible
+          insetsPt:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+  - id: e3
+    name: object 8
+    frame:
+      x: 695.16
+      y: 1046.66
+      width: 613.3
+      height: 35.2
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT
+            - text: " "
+              letterSpacingPt: -0.4
+            - text: OF
+            - text: " "
+              letterSpacingPt: -0.55
+            - text: COMPUTER
+            - text: " "
+              letterSpacingPt: -0.25
+            - text: ENGINEERING
+              letterSpacingPt: -0.1
+          defaultRunStyle:
+            sizePt: 14
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          lineHeight: 1.17
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 9
+    frame:
+      x: 1866.04
+      y: 1046.66
+      width: 17
+      height: 27.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "3"
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.5
+          defaultRunStyle:
+            sizePt: 11
+            font:
+              kind: family
+              family: Trebuchet MS
+          lineHeight: 1.2
+          spaceBeforePt: 0.35
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0.35
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e5
+    name: TextBox 9
+    frame:
+      x: 354
+      y: 12
+      width: 1212
+      height: 179.33
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Literature Survey/Existing System
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 36
+              weight: 700
+          align: center
+        - runs: []
+          defaultRunStyle:
+            sizePt: 32
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e6
+    name: Table 10
+    frame:
+      x: 76.06
+      y: 166.17
+      width: 1746
+      height: 722.4
+    type: table
+    columns:
+      - width: 873
+      - width: 873
+    rows:
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Literature Survey
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 28
+                      weight: 700
+                  align: center
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Existing System
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 28
+                      weight: 700
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 0
+                  spaceAfterPt: 0
+                  indentPt: 0
+                  hangingIndentPt: 0
+                - runs: []
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Earlier research proposed blockchain platforms to track donations, mostly on Ethereum with smart contracts.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                  align: justify
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: A donor gives money to an NGO on a general promise that the project will be completed.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                  align: justify
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Surveys found that blockchain gives immutable and verifiable donation records.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                  align: justify
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Donors have limited visibility into what work was done and how funds were used.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                  align: justify
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Studies found that lack of transparency in charity reduces people's willingness to donate.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: No independent review is linked to the release of funds.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "Recent work added smart contracts, escrow systems and "
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                    - text: WebAPIs
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+                    - text: " to build secure, traceable donation tracking."
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Donors cannot easily see how much money is released and how much is unused.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+      - height: 120.4
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Most of these works focus mainly on tracking donations.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Trust depends on the NGO's word, not on checked evidence.
+                      font:
+                        kind: family
+                        family: Times New Roman
+                      sizePt: 20
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2

@@ -1,0 +1,517 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+  image-3:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_3.png
+elements:
+  - id: e0
+    name: object 6
+    frame:
+      x: 0
+      y: 0
+      width: 156
+      height: 129.12
+    altText: object 6
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 7
+    frame:
+      x: 1728
+      y: 0
+      width: 155.04
+      height: 149.76
+    altText: object 7
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e2
+    name: object 2
+    frame:
+      x: 0
+      y: 1034.95
+      width: 1920
+      height: 45.13
+    type: group
+    coordinateSpace:
+      width: 1920
+      height: 45.13
+    children:
+      - id: e2-0
+        name: object 3
+        frame:
+          x: 0
+          y: 5.83
+          width: 1920
+          height: 39.16
+        altText: object 3
+        type: image
+        assetId: image-3
+        fit: fill
+      - id: e2-1
+        name: object 4
+        frame:
+          x: 0
+          y: 0
+          width: 1920
+          height: 44.96
+        type: shape
+        geometry:
+          kind: path
+          viewBox:
+            width: 1
+            height: 1
+          path: M 1 0 L 0 0 L 0 0.99815 L 1 0.99815 L 1 0 Z
+        fill:
+          kind: solid
+          color:
+            kind: rgb
+            value: "#006FC0"
+        body:
+          paragraphs:
+            - runs: []
+          overflow: visible
+          insetsPt:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+  - id: e3
+    name: object 8
+    frame:
+      x: 695.16
+      y: 1046.66
+      width: 613.3
+      height: 35.2
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT
+            - text: " "
+              letterSpacingPt: -0.4
+            - text: OF
+            - text: " "
+              letterSpacingPt: -0.55
+            - text: COMPUTER
+            - text: " "
+              letterSpacingPt: -0.25
+            - text: ENGINEERING
+              letterSpacingPt: -0.1
+          defaultRunStyle:
+            sizePt: 14
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          lineHeight: 1.17
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 9
+    frame:
+      x: 1850.29
+      y: 1046.66
+      width: 40.94
+      height: 27.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "12"
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.5
+          defaultRunStyle:
+            sizePt: 11
+            font:
+              kind: family
+              family: Trebuchet MS
+          lineHeight: 1.2
+          spaceBeforePt: 0.35
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0.35
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e5
+    name: TextBox 4
+    frame:
+      x: 348
+      y: 4.85
+      width: 1140
+      height: 191.05
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: References
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 36
+              weight: 700
+          align: center
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "   "
+              font:
+                kind: family
+                family: Times New Roman
+              weight: 400
+          defaultRunStyle:
+            sizePt: 36
+            weight: 700
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e6
+    name: TextBox 9
+    frame:
+      x: 41.81
+      y: 159.19
+      width: 1811.04
+      height: 843.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "H. Saleh, S. Avdoshin, and A. "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Dzhonov
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ', "Platform for tracking donations of charitable foundations based on blockchain technology," in '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Proc. 2019 Actual Problems of Systems and Software Engineering (APSSE)
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", Moscow, Russia, Nov. 2019, "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: doi
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ": 10.1109/APSSE47353.2019.00031."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: 'B. Hu and H. Li, "Research on charity system based on blockchain," '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: "IOP Conf. Ser.: Mater. Sci. Eng."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", vol. 768, no. 7, Art. no. 072020, 2020, "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: doi
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ": 10.1088/1757-899X/768/7/072020."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: "C. Nairi, M. "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Cicioğlu
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ", and A. "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Çalhan
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ', "Smart blockchain networks: Revolutionizing donation tracking in the Web 3.0," '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Computer Communications
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", vol. 228, Art. no. 107972, Dec. 2024."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: 'A. Singh, R. Rajak, H. Mistry, and P. Raut, "Aid, charity and donation tracking system using blockchain," in '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: "Proc. 4th Int. Conf. Trends Electron. "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: Informat
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: . (ICOEI)
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", 2020, "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: doi
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ": 10.1109/ICOEI48184.2020.9143001."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: 'N. S. Sirisha, T. Agarwal, R. Monde, R. Yadav, and R. Hande, "Proposed solution for trackable donations using blockchain," in '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Proc. 2019 Int. Conf. Nascent Technol. Eng. (ICNTE)
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", 2019, "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: doi
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ": 10.1109/ICNTE44896.2019.8946019."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: 'J. Lee, A. Seo, Y. Kim, and J. Jeong, "Blockchain-based one-off address system to guarantee transparency and privacy for a sustainable donation environment," '
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: Sustainability
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+              italic: true
+            - text: ", vol. 10, 2018, "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: doi
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+            - text: ": 10.3390/su10124422."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 18
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2

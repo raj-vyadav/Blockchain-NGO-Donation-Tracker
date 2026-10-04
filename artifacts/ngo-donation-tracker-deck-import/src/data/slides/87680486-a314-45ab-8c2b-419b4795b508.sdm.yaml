@@ -1,0 +1,355 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+  image-3:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_3.png
+  image-5:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_5.png
+  image-6:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_6.png
+  image-7:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_7.png
+  image-8:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_8.png
+elements:
+  - id: e0
+    name: object 6
+    frame:
+      x: 0
+      y: 0
+      width: 156
+      height: 129.12
+    altText: object 6
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 7
+    frame:
+      x: 1728
+      y: 0
+      width: 138.04
+      height: 129.12
+    altText: object 7
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e2
+    name: object 2
+    frame:
+      x: 0
+      y: 1034.95
+      width: 1920
+      height: 45.13
+    type: group
+    coordinateSpace:
+      width: 1920
+      height: 45.13
+    children:
+      - id: e2-0
+        name: object 3
+        frame:
+          x: 0
+          y: 5.83
+          width: 1920
+          height: 39.16
+        altText: object 3
+        type: image
+        assetId: image-3
+        fit: fill
+      - id: e2-1
+        name: object 4
+        frame:
+          x: 0
+          y: 0
+          width: 1920
+          height: 44.96
+        type: shape
+        geometry:
+          kind: path
+          viewBox:
+            width: 1
+            height: 1
+          path: M 1 0 L 0 0 L 0 0.99815 L 1 0.99815 L 1 0 Z
+        fill:
+          kind: solid
+          color:
+            kind: rgb
+            value: "#006FC0"
+        body:
+          paragraphs:
+            - runs: []
+          overflow: visible
+          insetsPt:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+  - id: e3
+    name: object 8
+    frame:
+      x: 695.16
+      y: 1046.66
+      width: 613.3
+      height: 35.2
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT
+            - text: " "
+              letterSpacingPt: -0.4
+            - text: OF
+            - text: " "
+              letterSpacingPt: -0.55
+            - text: COMPUTER
+            - text: " "
+              letterSpacingPt: -0.25
+            - text: ENGINEERING
+              letterSpacingPt: -0.1
+          defaultRunStyle:
+            sizePt: 14
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          lineHeight: 1.17
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 9
+    frame:
+      x: 1866.04
+      y: 1046.66
+      width: 17
+      height: 27.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "8"
+          defaultRunStyle:
+            sizePt: 11
+            font:
+              kind: family
+              family: Trebuchet MS
+            color:
+              kind: rgb
+              value: "#ffffff"
+          lineHeight: 1.2
+          spaceBeforePt: 0.35
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0.35
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e5
+    name: TextBox 4
+    frame:
+      x: 348
+      y: 4.85
+      width: 1140
+      height: 189.03
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Design Details
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 36
+              weight: 700
+          align: center
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs: []
+          defaultRunStyle:
+            sizePt: 36
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e6
+    name: Picture 12
+    frame:
+      x: 36
+      y: 142.36
+      width: 882
+      height: 404
+    altText: Picture 12
+    type: image
+    assetId: image-5
+    fit: fill
+  - id: e7
+    name: Picture 14
+    frame:
+      x: 40.65
+      y: 594.31
+      width: 877.35
+      height: 400.5
+    altText: Picture 14
+    type: image
+    assetId: image-6
+    fit: fill
+  - id: e8
+    name: Picture 17
+    frame:
+      x: 997.19
+      y: 142.36
+      width: 850.81
+      height: 397.64
+    altText: Picture 17
+    type: image
+    assetId: image-7
+    fit: fill
+  - id: e9
+    name: Picture 19
+    frame:
+      x: 1001.81
+      y: 594.31
+      width: 846.19
+      height: 397.64
+    altText: Picture 19
+    type: image
+    assetId: image-8
+    fit: fill
+  - id: e10
+    name: TextBox 20
+    frame:
+      x: 96
+      y: 546.36
+      width: 744
+      height: 48.47
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Fig 1. Donor Home Page
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 14
+              weight: 700
+              italic: true
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e11
+    name: TextBox 22
+    frame:
+      x: 93.68
+      y: 990.39
+      width: 744
+      height: 48.47
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Fig 2. Contribution History
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 14
+              weight: 700
+              italic: true
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e12
+    name: TextBox 24
+    frame:
+      x: 1058.71
+      y: 990.65
+      width: 744
+      height: 48.47
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Fig 4. Verify Workspace
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 14
+              weight: 700
+              italic: true
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e13
+    name: TextBox 26
+    frame:
+      x: 1056
+      y: 541.08
+      width: 744
+      height: 48.47
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Fig 3. NGO Workspace
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 14
+              weight: 700
+              italic: true
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2

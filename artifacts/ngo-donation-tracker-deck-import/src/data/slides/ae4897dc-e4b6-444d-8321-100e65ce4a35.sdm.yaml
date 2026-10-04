@@ -1,0 +1,229 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+  image-3:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_3.png
+elements:
+  - id: e0
+    name: object 6
+    frame:
+      x: 0
+      y: 0
+      width: 156
+      height: 129.12
+    altText: object 6
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 7
+    frame:
+      x: 1728
+      y: 0
+      width: 155.04
+      height: 149.76
+    altText: object 7
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e2
+    name: object 2
+    frame:
+      x: 0
+      y: 1034.95
+      width: 1920
+      height: 45.13
+    type: group
+    coordinateSpace:
+      width: 1920
+      height: 45.13
+    children:
+      - id: e2-0
+        name: object 3
+        frame:
+          x: 0
+          y: 5.83
+          width: 1920
+          height: 39.16
+        altText: object 3
+        type: image
+        assetId: image-3
+        fit: fill
+      - id: e2-1
+        name: object 4
+        frame:
+          x: 0
+          y: 0
+          width: 1920
+          height: 44.96
+        type: shape
+        geometry:
+          kind: path
+          viewBox:
+            width: 1
+            height: 1
+          path: M 1 0 L 0 0 L 0 0.99815 L 1 0.99815 L 1 0 Z
+        fill:
+          kind: solid
+          color:
+            kind: rgb
+            value: "#006FC0"
+        body:
+          paragraphs:
+            - runs: []
+          overflow: visible
+          insetsPt:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+  - id: e3
+    name: object 8
+    frame:
+      x: 695.16
+      y: 1046.66
+      width: 613.3
+      height: 35.2
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT
+            - text: " "
+              letterSpacingPt: -0.4
+            - text: OF
+            - text: " "
+              letterSpacingPt: -0.55
+            - text: COMPUTER
+            - text: " "
+              letterSpacingPt: -0.25
+            - text: ENGINEERING
+              letterSpacingPt: -0.1
+          defaultRunStyle:
+            sizePt: 14
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          lineHeight: 1.17
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 9
+    frame:
+      x: 1866.04
+      y: 1046.66
+      width: 17
+      height: 27.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "6"
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.5
+          defaultRunStyle:
+            sizePt: 11
+            font:
+              kind: family
+              family: Trebuchet MS
+          lineHeight: 1.2
+          spaceBeforePt: 0.35
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0.35
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e5
+    name: TextBox 9
+    frame:
+      x: 195.48
+      y: 13.67
+      width: 1529.04
+      height: 101.78
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Proposed Solution
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 36
+              weight: 700
+          align: center
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e6
+    name: TextBox 17
+    frame:
+      x: 78
+      y: 134.95
+      width: 1763.04
+      height: 828.82
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "           The proposed solution is a donation platform that connects a project's contributions to real, verified work. Instead of giving money for a general promise, a project is divided into funded milestones, and each milestone has its own planned amount and its own review step. The NGO submits a description of the completed work, its location and supporting files (only file names, types and sizes are saved in this demo), and independent verifiers inspect this evidence and either approve it or reject it with a reason. "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 24
+        - runs:
+            - text: "           The demo records a milestone's funds as released only after two of three distinct verifiers approve, no verifier can vote twice on the same milestone, and the system also checks that enough unspent contributions are available. A rejection needs a written reason; if two verifiers reject, the milestone needs revision, the money stays locked, and the NGO can submit improved evidence for a fresh review. Donors can see at any time how much was raised, how much has been released, and how much is still held, and a ledger, stored in the browser, records every contribution, evidence submission, verifier vote and release. In this way, trust moves from the NGO's word to checked evidence and a visible record."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 24
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2

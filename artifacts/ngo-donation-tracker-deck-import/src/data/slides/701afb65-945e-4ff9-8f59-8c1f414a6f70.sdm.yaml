@@ -1,0 +1,742 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+elements:
+  - id: e0
+    name: object 5
+    frame:
+      x: 0
+      y: 36
+      width: 228
+      height: 188.64
+    altText: object 5
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 7
+    frame:
+      x: 96
+      y: 21.15
+      width: 1596
+      height: 177.89
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DATTA MEGHE COLLEGE OF ENGINEERING, AIROLI DEPARTMENT OF COMPUTER ENGINEERING
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+            sizePt: 24
+            weight: 700
+            italic: false
+            color:
+              kind: rgb
+              value: "#254061"
+          align: center
+          lineHeight: 1.2
+          spaceBeforePt: 0.95
+          indentPt: 45.9
+          hangingIndentPt: 44.95
+      overflow: visible
+      insetsPt:
+        top: 30.49
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e2
+    name: object 6
+    frame:
+      x: 1584
+      y: 0
+      width: 298.56
+      height: 288.96
+    altText: object 6
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e3
+    name: object 2
+    frame:
+      x: 144.94
+      y: 235.81
+      width: 1314.8
+      height: 60.28
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "B.E. (Sem VII) MAJOR PROJECT "
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+            sizePt: 24
+            weight: 700
+            italic: false
+            color:
+              kind: rgb
+              value: "#17365D"
+          align: center
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 112.4
+      overflow: visible
+      insetsPt:
+        top: 1.05
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 4
+    frame:
+      x: 143
+      y: 563
+      width: 1572.1
+      height: 360
+    type: table
+    columns:
+      - width: 180
+      - width: 312
+      - width: 349
+      - width: 731.1
+    rows:
+      - height: 72
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Sr.
+                      weight: 700
+                      letterSpacingPt: -2
+                    - text: " "
+                      weight: 700
+                      letterSpacingPt: -1.14
+                    - text: N
+                      weight: 700
+                      letterSpacingPt: -3.4
+                    - text: " "
+                      weight: 700
+                      letterSpacingPt: -3.4
+                    - text: o
+                      weight: 700
+                      letterSpacingPt: -3.4
+                  defaultRunStyle:
+                    sizePt: 24
+                    font:
+                      kind: family
+                      family: Times New Roman
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.5
+                  indentPt: 0.15
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#4F81BC"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Student ID
+                  defaultRunStyle:
+                    sizePt: 24
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    weight: 700
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.5
+                  indentPt: 29.85
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#4F81BC"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Roll Number
+                  defaultRunStyle:
+                    sizePt: 24
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    weight: 700
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 3.25
+                  indentPt: 16.9
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#4F81BC"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Name of Students
+                  defaultRunStyle:
+                    sizePt: 24
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    weight: 700
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 3.25
+                  indentPt: 0.1
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#4F81BC"
+      - height: 72
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "1"
+                      weight: 700
+                      letterSpacingPt: -3.05
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 18
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.54
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: 2023FHCO086
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "43"
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "Om Ananta "
+                    - text: Shingne
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+      - height: 72
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "2"
+                      weight: 700
+                      letterSpacingPt: -3.05
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 18
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.54
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: 2023FHCO121
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "50"
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Chinmay Vinay Tambe
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+      - height: 72
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "3"
+                      weight: 700
+                      letterSpacingPt: -3.05
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 18
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.54
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: 2023FHCO019
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "54"
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "Raj "
+                    - text: Vijaykant
+                    - text: " Yadav"
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#CFD6E7"
+      - height: 72
+        cells:
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "4"
+                      weight: 700
+                      letterSpacingPt: -3.05
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 18
+                  align: center
+                  lineHeight: 1.2
+                  spaceBeforePt: 2.6
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: 2024DSCO027
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: "59"
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+          - body:
+              paragraphs:
+                - runs:
+                    - text: Diksha Kailas Mirgal
+                  defaultRunStyle:
+                    font:
+                      kind: family
+                      family: Times New Roman
+                    sizePt: 20
+                  align: center
+                  lineHeight: 1.2
+              overflow: visible
+              insetsPt:
+                top: 3.6
+                right: 7.2
+                bottom: 3.6
+                left: 7.2
+            fill:
+              kind: solid
+              color:
+                kind: rgb
+                value: "#E8EBF4"
+  - id: e5
+    name: object 3
+    frame:
+      x: 119.97
+      y: 957.04
+      width: 984.03
+      height: 53.21
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Name
+              weight: 700
+            - text: " "
+              weight: 700
+              letterSpacingPt: -0.6
+            - text: of
+              weight: 700
+            - text: " "
+              weight: 700
+              letterSpacingPt: -0.2
+            - text: Supervisor
+              weight: 700
+            - text: " "
+              weight: 700
+              letterSpacingPt: -0.3
+            - text: –
+              weight: 700
+              letterSpacingPt: -0.5
+            - text: " Prof. Pranita Chavan"
+              weight: 700
+              letterSpacingPt: -0.5
+          defaultRunStyle:
+            sizePt: 21
+            font:
+              kind: family
+              family: Arial
+          markerStyle:
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          bullet:
+            kind: character
+            character: ●
+          lineHeight: 1.2
+          spaceBeforePt: 1.15
+          indentPt: 31.7
+          hangingIndentPt: 30.7
+      overflow: visible
+      insetsPt:
+        top: 1.15
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e6
+    name: TextBox 7
+    frame:
+      x: 134.87
+      y: 340.73
+      width: 1570.16
+      height: 189.03
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Group No – 16
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 24
+              weight: 700
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: Project Title – Blockchain Based NGO Donation Tracker
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 24
+              weight: 700
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+        - runs:
+            - text: Group Members -
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 24
+              weight: 700
+          markerStyle:
+            font:
+              kind: family
+              family: Arial
+          bullet:
+            kind: character
+            character: •
+          indentPt: 22.5
+          hangingIndentPt: 22.5
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2

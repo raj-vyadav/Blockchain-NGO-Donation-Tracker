@@ -1,0 +1,28 @@
+kind = "slides"
+previewPath = "/ngo-donation-tracker-deck-import/"
+title = "NGO Donation Tracker Project Deck"
+description = "Imported presentation describing the NGO donation tracker project, its intended blockchain workflow, and prototype scope."
+version = "1.0.0"
+id = "artifacts/ngo-donation-tracker-deck-import"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/ngo-donation-tracker-deck-import/" ]
+localPort = 18188
+
+[services.development]
+run = "pnpm --filter @workspace/ngo-donation-tracker-deck-import run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ngo-donation-tracker-deck-import", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ngo-donation-tracker-deck-import/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18188"
+BASE_PATH = "/ngo-donation-tracker-deck-import/"

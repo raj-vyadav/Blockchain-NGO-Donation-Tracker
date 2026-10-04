@@ -1,0 +1,213 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+elements:
+  - id: e0
+    name: object 2
+    frame:
+      x: 785
+      y: 4.68
+      width: 289.9
+      height: 89.26
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: C o n t e n t
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+            sizePt: 36
+            weight: 700
+            italic: false
+            color:
+              kind: rgb
+              value: "#000000"
+            letterSpacingPt: -4.84
+          lineHeight: 1.2
+          spaceBeforePt: 1
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 1
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e1
+    name: object 3
+    frame:
+      x: 72
+      y: 111.86
+      width: 1399.94
+      height: 908.49
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: Introduction
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          bullet:
+            kind: number
+            style: arabicPeriod
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 28.15
+          hangingIndentPt: 27.15
+        - runs:
+            - text: Literature Survey/Existing System
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          bullet:
+            kind: number
+            style: arabicPeriod
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 28.15
+          hangingIndentPt: 27.15
+        - runs:
+            - text: Limitation of Existing System or Research Gap
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          bullet:
+            kind: number
+            style: arabicPeriod
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 28.15
+          hangingIndentPt: 27.15
+        - runs:
+            - text: Problem Statement and Objective
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          bullet:
+            kind: number
+            style: arabicPeriod
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 28.15
+          hangingIndentPt: 27.15
+        - runs:
+            - text: Proposed Solution
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          bullet:
+            kind: number
+            style: arabicPeriod
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 28.15
+          hangingIndentPt: 27.15
+        - runs:
+            - text: "    5.1Analysis/Framework/Algorithm"
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "    5.2Design Details"
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "    5.3Methodology Proposed "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "6.Technology used "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "   6.1Details of Database or details about input to systems"
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "   6.2Performance Evaluation Parameters (for Validation)"
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: "   6.3Software and Hardware Requirement"
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+        - runs:
+            - text: 7.Refrences
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          lineHeight: 1.2
+          spaceBeforePt: 1.05
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 1.05
+        right: 0
+        bottom: 0
+        left: 0

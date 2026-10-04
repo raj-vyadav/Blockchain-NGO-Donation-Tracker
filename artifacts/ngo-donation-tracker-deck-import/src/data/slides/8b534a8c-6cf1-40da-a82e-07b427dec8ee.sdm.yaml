@@ -1,0 +1,241 @@
+format: replit.sdm
+version: 1
+size:
+  width: 1920
+  height: 1080
+background:
+  kind: solid
+  color:
+    kind: rgb
+    value: "#ffffff"
+theme:
+  colors:
+    dk1: "#000000"
+    dk2: "#1F497D"
+    lt1: "#FFFFFF"
+    lt2: "#EEECE1"
+    accent1: "#4F81BD"
+    accent2: "#C0504D"
+    accent3: "#9BBB59"
+    accent4: "#8064A2"
+    accent5: "#4BACC6"
+    accent6: "#F79646"
+    hlink: "#0000FF"
+    folHlink: "#800080"
+  fonts:
+    display: Calibri
+    body: Calibri
+assets:
+  image-1:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_1.jpg
+  image-2:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_2.jpg
+  image-3:
+    src: assets/imported-37c52b34-9e91-4398-9099-7b1af9468716/image_3.png
+elements:
+  - id: e0
+    name: object 10
+    frame:
+      x: 0
+      y: 0
+      width: 156
+      height: 129.12
+    altText: object 10
+    type: image
+    assetId: image-1
+    fit: fill
+  - id: e1
+    name: object 8
+    frame:
+      x: 1728
+      y: 0
+      width: 155.04
+      height: 149.76
+    altText: object 8
+    type: image
+    assetId: image-2
+    fit: fill
+  - id: e2
+    name: object 3
+    frame:
+      x: 0
+      y: 1034.95
+      width: 1920
+      height: 45.13
+    type: group
+    coordinateSpace:
+      width: 1920
+      height: 45.13
+    children:
+      - id: e2-0
+        name: object 4
+        frame:
+          x: 0
+          y: 5.83
+          width: 1920
+          height: 39.16
+        altText: object 4
+        type: image
+        assetId: image-3
+        fit: fill
+      - id: e2-1
+        name: object 5
+        frame:
+          x: 0
+          y: 0
+          width: 1920
+          height: 44.96
+        type: shape
+        geometry:
+          kind: path
+          viewBox:
+            width: 1
+            height: 1
+          path: M 1 0 L 0 0 L 0 0.99815 L 1 0.99815 L 1 0 Z
+        fill:
+          kind: solid
+          color:
+            kind: rgb
+            value: "#006FC0"
+        body:
+          paragraphs:
+            - runs: []
+          overflow: visible
+          insetsPt:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+  - id: e3
+    name: object 11
+    frame:
+      x: 695.16
+      y: 1046.66
+      width: 613.3
+      height: 35.2
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: DEPARTMENT
+            - text: " "
+              letterSpacingPt: -0.4
+            - text: OF
+            - text: " "
+              letterSpacingPt: -0.55
+            - text: COMPUTER
+            - text: " "
+              letterSpacingPt: -0.25
+            - text: ENGINEERING
+              letterSpacingPt: -0.1
+          defaultRunStyle:
+            sizePt: 14
+            font:
+              kind: family
+              family: Microsoft Sans Serif
+          lineHeight: 1.17
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e4
+    name: object 12
+    frame:
+      x: 1848
+      y: 1046.66
+      width: 15.1
+      height: 27.36
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "2"
+              weight: 700
+              color:
+                kind: rgb
+                value: "#FFFFFF"
+              letterSpacingPt: -0.5
+          defaultRunStyle:
+            sizePt: 11
+            font:
+              kind: family
+              family: Trebuchet MS
+          lineHeight: 1.2
+          spaceBeforePt: 0.35
+          indentPt: 1
+      overflow: visible
+      insetsPt:
+        top: 0.35
+        right: 0
+        bottom: 0
+        left: 0
+  - id: e5
+    name: TextBox 12
+    frame:
+      x: 564
+      y: 16.06
+      width: 804
+      height: 101.78
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: INTRODUCTION
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 36
+              weight: 700
+          align: center
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
+  - id: e6
+    name: TextBox 13
+    frame:
+      x: 84
+      y: 203.35
+      width: 1779.1
+      height: 731.88
+    type: text
+    body:
+      paragraphs:
+        - runs:
+            - text: "         When people donate money to an NGO, they often don't know how it was used. They cannot easily see what work was completed, who checked it, or how much money is still unused. This lack of visibility creates a trust problem in charitable giving."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          align: justify
+        - runs:
+            - text: "         This project is a working prototype (demo only) of a donation tracking system that tackles this by dividing a project into milestones, each with its own amount of funding. No real money, wallet or blockchain transaction is involved; contributions and releases are simulated.                   "
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          align: justify
+        - runs:
+            - text: "         The NGO submits proof of completed work, independent verifiers review it, and the demo records a milestone's funds as released only after two of three distinct verifiers approve. An activity ledger, stored in the browser, records every step, so donors can follow where their money goes."
+              font:
+                kind: family
+                family: Times New Roman
+              sizePt: 28
+          align: justify
+        - runs: []
+          defaultRunStyle:
+            font:
+              kind: family
+              family: Times New Roman
+          align: justify
+      overflow: visible
+      insetsPt:
+        top: 3.6
+        right: 7.2
+        bottom: 3.6
+        left: 7.2
