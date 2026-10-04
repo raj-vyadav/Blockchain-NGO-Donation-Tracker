@@ -1,6 +1,6 @@
-# [Project name]
+# NGO Donation Tracker
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A role-based demonstration of transparent charitable funding, where NGO milestone funds remain locked until submitted evidence is reviewed and approved.
 
 ## Run & Operate
 
@@ -22,15 +22,19 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/ngo-donation-tracker` — donor, NGO, and verifier web experience.
+- `artifacts/api-server` — shared API service scaffold; the current prototype does not require it.
+- `lib/api-spec/openapi.yaml` — shared API contract source of truth.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first prototype keeps its shared demo state in browser storage so a presenter can switch roles and complete the workflow without configuring accounts or a database.
+- Blockchain transactions are simulated for demonstration only; the prototype does not custody funds, connect a wallet, or publish to a live network.
+- Evidence file selections are represented as saved metadata in the browser demo; they are not uploaded to persistent remote storage.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Donors can explore a school construction project, make a simulated contribution, and inspect fund status and history. NGO users can manage projects and submit milestone evidence. Verifiers can review evidence and vote; approval releases only the milestone's allocated amount, while rejection keeps it locked and records a reason.
 
 ## User preferences
 
@@ -38,7 +42,7 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Resetting the demo restores the seeded school project and sample ledger; it does not affect any real funds or blockchain network.
 
 ## Pointers
 

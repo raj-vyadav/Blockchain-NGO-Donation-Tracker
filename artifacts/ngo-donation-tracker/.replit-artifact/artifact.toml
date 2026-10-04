@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "NGO Donation Tracker"
+description = "A role-based demonstration app for transparent charitable funding, where donations are held against project milestones and released only after evidence review and verifier approval."
+version = "1.0.0"
+id = "artifacts/ngo-donation-tracker"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18279
+
+[services.development]
+run = "pnpm --filter @workspace/ngo-donation-tracker run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ngo-donation-tracker", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ngo-donation-tracker/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18279"
+BASE_PATH = "/"

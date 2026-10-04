@@ -1,0 +1,144 @@
+Build a complete working prototype of a **Blockchain-Based NGO Donation Tracker / Milestone Verification System for Transparent Charitable Fund Disbursement**.
+
+The main problem is that donors often cannot clearly verify how their donated money is being used after giving it to an NGO. The system should solve this by using **milestone-based fund disbursement**.
+
+### Core concept
+
+A donor contributes money to an NGO project. Instead of making the entire amount immediately available to the NGO, the total donation is divided into predefined milestones or stages.
+
+For example:
+
+* Total donation: ₹1,00,000
+* Milestone 1: Material purchase – ₹25,000
+* Milestone 2: Initial work completed – ₹25,000
+* Milestone 3: Major work completed – ₹25,000
+* Milestone 4: Project completed – ₹25,000
+
+The money for each milestone should remain locked until the NGO submits evidence that the corresponding work has been completed.
+
+### Main users
+
+Create three main roles:
+
+1. **Donor**
+
+   * View NGO projects
+   * View project details, target amount, milestones and progress
+   * Make a donation
+   * View donation history
+   * Track how donated funds are being released
+   * View submitted evidence and milestone status
+
+2. **NGO**
+
+   * Create/manage projects
+   * Define project milestones and their required funding
+   * View received donations
+   * Submit milestone completion requests
+   * Upload evidence such as photographs, receipts and supporting documents
+   * Provide relevant project/location information
+   * Track whether each milestone has been approved or rejected
+
+3. **Verifier / Auditor**
+
+   * View milestone requests submitted by NGOs
+   * Examine the submitted evidence
+   * Verify the project progress
+   * Approve or reject milestones
+   * Participate in the verification/voting process
+   * View the history of previous approvals and fund releases
+
+### Main workflow
+
+The complete system should demonstrate this flow:
+
+Donor selects an NGO project
+→ Donor contributes money
+→ Funds are held securely
+→ NGO works on the project
+→ NGO submits evidence for a milestone
+→ Verifiers review the evidence
+→ Verifiers approve or reject the milestone
+→ If approved, the corresponding amount is released to the NGO
+→ Project progress and fund utilization are recorded
+→ Donors can transparently track the entire process.
+
+If a milestone is rejected, its corresponding funds must remain locked and the NGO should be able to see the reason for rejection.
+
+### Transparency
+
+The system should provide a project dashboard showing:
+
+* Total amount required
+* Total amount donated
+* Amount currently locked
+* Amount released
+* Number of completed milestones
+* Current project progress
+* Pending verification requests
+* Approved/rejected milestones
+* Donation and disbursement history
+
+Every important financial action and milestone decision should have a clear record that users can inspect.
+
+### Evidence verification
+
+For each milestone, the NGO should be able to submit:
+
+* Photographs
+* Receipts
+* Documents
+* Description of completed work
+* Location information where applicable
+
+The verifier should be able to inspect this evidence before making a decision.
+
+### Example project
+
+Include a realistic demonstration project such as:
+
+**Construction of a School**
+
+Total funding required: ₹1,00,000
+
+Milestones:
+
+1. Purchase of construction materials – ₹25,000
+2. Foundation completed – ₹25,000
+3. Main construction completed – ₹25,000
+4. Final completion – ₹25,000
+
+Demonstrate at least one complete cycle where:
+
+**Donation → NGO submits milestone evidence → verifier approves → milestone funds are released → dashboard updates.**
+
+### User interface
+
+Create a clean, professional dashboard suitable for a final-year engineering major project demonstration.
+
+The system should have:
+
+* Landing page
+* Login/role selection
+* Donor dashboard
+* NGO dashboard
+* Verifier dashboard
+* Project details page
+* Donation interface
+* Milestone tracking
+* Evidence submission page
+* Verification/voting page
+* Transaction/disbursement history
+* Project progress visualization
+
+The interface should make the concept immediately understandable to an external examiner.
+
+### Important requirement
+
+Do not build this as a simple NGO donation CRUD application.
+
+The central feature must be **conditional, milestone-based release of funds after verification of real-world project progress**.
+
+The final prototype should be functional enough for a live college project demonstration, with realistic sample data and a complete end-to-end demonstration flow.
+
+Do not overcomplicate the system with unnecessary features. Prioritize making the core donation → milestone → evidence → verification → fund release workflow actually work.
