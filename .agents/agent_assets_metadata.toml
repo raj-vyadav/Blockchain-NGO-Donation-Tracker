@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "DBe3x3d1C6WHf7ReNzZQn"
+uri = "file://.local/outputs/NGO-Donation-Tracker-Project-Deck.pptx"
+type = "slides"
+title = "NGO Donation Tracker Project Deck.pptx"
